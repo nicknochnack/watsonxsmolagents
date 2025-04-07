@@ -2,7 +2,7 @@
 Check out how to build your own ReAct agent using Hugging Face smolagents and Llama 4 via watsonx.ai
 
 ## See it live and in action 📺
-<img src="https://i.imgur.com/DKuJkOn.gif"/>
+<img src="https://i.imgur.com/QMeKC8F.gif"/>
 
 # Startup 🚀
 1. Create a virtual environment `uv venv` and activate it `source .venv/bin/activate`
