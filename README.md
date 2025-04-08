@@ -14,15 +14,31 @@ Check out how to build your own ReAct agent using Hugging Face smolagents and Ll
 # Other References 🔗 </br>
 - ToDo...maybe later
 
-# RAG
-<img src="https://i.imgur.com/YasWC80.gif"/>
-1. Add telemetry `uv add "smolagents[litellm,telemetry]"`
-2. Start arize phoenix server `uv run -m phoenix.server.main serve`
-3. Access server at `http://0.0.0.0:6006`
-4. Run agent with telemetry `uv run tracing.py`
+# Agentic RAG
+
+## Steps to Run
+1. a
+2. b
+3. c
+
+# Multi Modal
+
+## Steps to Run
+1. a
+2. b
+3. c
+
+# Multi Agent
+
+## Steps to Run
+1. a
+2. b
+3. c
 
 # Tracing 
-<img src="https://i.imgur.com/YasWC80.gif"/>
+<img src="https://i.imgur.com/YasWC80.gif"/>P
+
+## Steps to run 
 1. Add telemetry `uv add "smolagents[litellm,telemetry]"`
 2. Start arize phoenix server `uv run -m phoenix.server.main serve`
 3. Access server at `http://0.0.0.0:6006`
