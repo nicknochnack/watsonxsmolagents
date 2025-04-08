@@ -36,7 +36,7 @@ Check out how to build your own ReAct agent using Hugging Face smolagents and Ll
 3. c
 
 # Tracing 
-<img src="https://i.imgur.com/YasWC80.gif"/>P
+<img src="https://i.imgur.com/YasWC80.gif"/>
 
 ## Steps to run 
 1. Add telemetry `uv add "smolagents[litellm,telemetry]"`
