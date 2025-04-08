@@ -3,7 +3,7 @@ name = "challenge"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 dependencies = [
-    "smolagents[litellm]>=1.13.0",
+    "smolagents[litellm,telemetry]>=1.13.0",
 ]
