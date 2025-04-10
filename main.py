@@ -3,6 +3,8 @@ import os
 from dotenv import load_dotenv
 from smolagents import CodeAgent, LiteLLMModel, DuckDuckGoSearchTool, VisitWebpageTool 
 
+load_dotenv()
+
 #LLM
 llm = LiteLLMModel(
     model_id="watsonx/meta-llama/llama-4-maverick-17b-128e-instruct-fp8", 
