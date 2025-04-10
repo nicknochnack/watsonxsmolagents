@@ -16,7 +16,7 @@ Check out how to build your own ReAct agent using Hugging Face smolagents and Ll
 ## Steps to Run
 1. Install chroma db `uv add chromadb`
 2. Run `uv run src/examples/rag/rag.py`
-3. Note if you want to reinstantiate the database you can run `uv run src/examples/rag/create_chroma.py` this will recreate the ticker_db chromadb instance
+3. Note if you want to reinstantiate the database you can run `uv run src/examples/rag/create_chroma.py` this will recreate the ticker_db chromadb instance  </br> </br>
 I've kept it pretty simple, it'll show how to find a stock ticker for a given company using the vector database. 
 
 # Multi Modal
@@ -24,14 +24,14 @@ I've kept it pretty simple, it'll show how to find a stock ticker for a given co
 
 ## Steps to Run
 1. Install pillow to load an image `uv add pillow`
-2. Run the image analysis example `uv run src/examples/multimodal/image.py`
+2. Run the image analysis example `uv run src/examples/multimodal/image.py`  </br>
 This demonstrates how to extract drug label information from an image, something which we would have traditionally used OCR for. Works pretty well in this case.
 
 # Multi Agent
 <img src="https://i.imgur.com/sLGftx3.gif"/>
 
 ## Steps to Run
-1. Pretty easy this one, just kick it off `uv run src/examples/multiagent/multiagent.py`
+1. Pretty easy this one, just kick it off `uv run src/examples/multiagent/multiagent.py` </br>
 This will use a manager agent to kick off a task from a subordinate agent to do wikipedia research.
 
 # Tracing 
