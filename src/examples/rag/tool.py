@@ -1,5 +1,6 @@
 from smolagents import Tool
 import chromadb
+import os 
 
 class StockTickerRAG(Tool):
     name = "stock_ticker_rag"
@@ -14,7 +15,8 @@ class StockTickerRAG(Tool):
 
     def __init__(self, **kwargs): 
         super().__init__(**kwargs)
-        self.chroma_client = chromadb.PersistentClient(path="ticker_db")
+        db_path = os.path.join(os.path.dirname(__file__), "ticker_db")
+        self.chroma_client = chromadb.PersistentClient(path=db_path)
         self.collection = self.chroma_client.get_collection(name="stock_tickers")
     
     def forward(self, stock_name: str):

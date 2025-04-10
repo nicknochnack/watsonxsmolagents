@@ -15,11 +15,12 @@ Check out how to build your own ReAct agent using Hugging Face smolagents and Ll
 - ToDo...maybe later
 
 # Agentic RAG
+<img src="https://i.imgur.com/8WlekfU.gif"/>
 
 ## Steps to Run
-1. a
-2. b
-3. c
+1. Install chroma db `uv add chromadb`
+2. Run `uv run src/examples/rag/rag.py`
+3. Note if you want to reinstantiate the database you can run `uv run src/examples/rag/create_chroma.py` this will recreate the ticker_db chromadb instance
 
 # Multi Modal
 
