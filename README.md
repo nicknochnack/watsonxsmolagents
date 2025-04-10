@@ -10,10 +10,6 @@ Check out how to build your own ReAct agent using Hugging Face smolagents and Ll
 3. Install dependencies `uv pip install -r pyproject.toml`
 4. Runt the agent `uv run main.py`
 
-</br>
-# Other References 🔗 </br>
-- ToDo...maybe later
-
 # Agentic RAG
 <img src="https://i.imgur.com/8WlekfU.gif"/>
 
@@ -21,13 +17,15 @@ Check out how to build your own ReAct agent using Hugging Face smolagents and Ll
 1. Install chroma db `uv add chromadb`
 2. Run `uv run src/examples/rag/rag.py`
 3. Note if you want to reinstantiate the database you can run `uv run src/examples/rag/create_chroma.py` this will recreate the ticker_db chromadb instance
+I've kept it pretty simple, it'll show how to find a stock ticker for a given company using the vector database. 
 
 # Multi Modal
+<img src="https://i.imgur.com/UATj5Mv.gif"/>
 
 ## Steps to Run
-1. a
-2. b
-3. c
+1. Install pillow to load an image `uv add pillow`
+2. Run the image analysis example `uv run src/examples/multimodal/image.py`
+This demonstrates how to extract drug label information from an image, something which we would have traditionally used OCR for. Works pretty well in this case.
 
 # Multi Agent
 

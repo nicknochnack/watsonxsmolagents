@@ -434,12 +434,14 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "chromadb" },
+    { name = "pillow" },
     { name = "smolagents", extra = ["litellm", "telemetry"] },
 ]
 
 [package.metadata]
 requires-dist = [
     { name = "chromadb", specifier = ">=1.0.4" },
+    { name = "pillow", specifier = ">=11.1.0" },
     { name = "smolagents", extras = ["litellm", "telemetry"], specifier = ">=1.13.0" },
 ]
 
