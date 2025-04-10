@@ -28,11 +28,11 @@ I've kept it pretty simple, it'll show how to find a stock ticker for a given co
 This demonstrates how to extract drug label information from an image, something which we would have traditionally used OCR for. Works pretty well in this case.
 
 # Multi Agent
+<img src="https://i.imgur.com/sLGftx3.gif"/>
 
 ## Steps to Run
-1. a
-2. b
-3. c
+1. Pretty easy this one, just kick it off `uv run src/examples/multiagent/multiagent.py`
+This will use a manager agent to kick off a task from a subordinate agent to do wikipedia research.
 
 # Tracing 
 <img src="https://i.imgur.com/YasWC80.gif"/>
@@ -41,7 +41,7 @@ This demonstrates how to extract drug label information from an image, something
 1. Add telemetry `uv add "smolagents[litellm,telemetry]"`
 2. Start arize phoenix server `uv run -m phoenix.server.main serve`
 3. Access server at `http://0.0.0.0:6006`
-4. Run agent with telemetry `uv run tracing.py`
+4. Run agent with telemetry `uv run src/examples/tracing.py`
 
 # Who, When, Why?
 

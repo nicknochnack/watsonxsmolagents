@@ -8,4 +8,5 @@ dependencies = [
     "chromadb>=1.0.4",
     "pillow>=11.1.0",
     "smolagents[litellm,telemetry]>=1.13.0",
+    "wikipedia>=1.4.0",
 ]
